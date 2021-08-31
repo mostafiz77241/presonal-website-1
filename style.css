@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: Segoe UI;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+/************header************/
+.header{
+    background: #23232D;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.header h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header p{
+    font-size: 12px;
+}
+.logo img{
+    width: 60px;
+    height: auto;
+    margin-bottom: 70px;
+}
+.next-section{
+    margin-top: 80px;
+}
+
+.next-section a i{
+    border: 1px solid #fff;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*about*/
+.about-us{
+    background-image: url('img/background.png');
+    background-size: cover;
+}
+.about-us{
+    overflow: hidden;
+}
+.about-us h2{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.content p{
+    text-align: center;
+}
+.col-1-3 {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.col-1-3:nth-child(3n){
+    margin-right: 0;
+}
+
+/*portfolio*/
+
+.portfolio{
+    background: #23232D;
+    overflow: hidden;
+    padding: 35px 0;
+}
+.portfolio h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.portfolio h1,
+.portfolio h2,
+.portfolio h3,
+.portfolio h4,
+.portfolio h5,
+.portfolio h6{
+    color: #fff;
+}
+.work-category{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.work-category ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.work-category ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.work-category ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 5px 0;
+}
+.work-category ul li:hover a{
+    border-bottom: 2px solid #7b79c9;
+}
+.work-category ul .current a{
+    border-bottom: 2px solid #7b79c9;
+}
+.work-columns{
+    text-align: center;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.work-columns a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.work-columns .col-1-3 h3{
+    margin: 0;
+}
+.button{
+    text-align: center;
+}
+.button a{
+    color: #fff;
+    text-decoration: none;
+    background: #7b79c9;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+.button a:hover{
+    background: #9315af;
+}
+/*photography*/
+
+.photography{
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+.photography h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+.photography P{
+    text-align: center;
+    color: #999999;
+    margin-bottom: 40px;
+}
+
+
+/*subscribe*/
+
+.subscribe{
+    background: #23232D;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+.subscribe p{
+    color: #fff;
+}
+.subscribe form input{
+    color: #666666;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.subscribe input[type="text"]{
+    margin-right: 10px;
+}
+.subscribe input[type="submit"]{
+    background: #7b79c9;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Segoe UI;
+}
+
+.subscribe .btn:hover{
+    background: #000;
+}
+
+
+/*footer*/
+
+.footer{
+    padding: 50px 0;
+    background-image: url('img/background.png');
+    background-size: cover;
+}
+.social-profiles{
+    
+    margin-bottom: 50px;
+}
+.social-profiles ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social-profiles ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.social-profiles ul li a{
+    color: #999999;
+    font-size: 20px;
+    transition: 0.5;
+}
+.social-profiles ul li a:hover{
+    color: #000fff;
+}
+
+
+.copyright p{
+    text-align: center;
+    color: #cccccc;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

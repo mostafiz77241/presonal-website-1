@@ -1,0 +1,10 @@
+@media all and (max-width: 768px) {
+	.col-1-3 {
+		width: 48%;
+	}
+}
+@media all and (max-width: 600px) {
+	.col-1-3 {
+		width: 98%;
+	}
+}
